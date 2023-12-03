@@ -66,7 +66,7 @@ const sendEmail = (e) =>{
     })
 }
 
-contactForm.addEventListener('submit','sendEmail')
+contactForm.addEventListener('submit',sendEmail)
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
 	const scrollUp = document.getElementById('scroll-up')
@@ -136,6 +136,6 @@ const sr = ScrollReveal({
     //reset:true Animation Repeay
 })
 
-sr.reveal('.home__prefil, .about__image, .contact__mail', {origin:right})
+sr.reveal('.home__prefil, .about__image, .contact__mail', {origin:'right'})
 sr.reveal ('.home__name, .home__info, .about__container, .section-title-1, .about__info, .contact__social, .contact__data', {origin: 'left'})
 sr.reveal('.services__card, .projects__card', {interval: 100})
