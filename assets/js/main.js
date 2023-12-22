@@ -97,23 +97,7 @@ const scrollActive = () =>{
 }
 window.addEventListener('scroll', scrollActive)
 
-
-/*=============== SCROLL PROGRESS ELEMENT ================*/
-const scrollProgressElement = document.querySelector('#scroll-progress')
-
-
-function scrollProgress() {
-    const totalheightOfWebPage = document.body.scrollHeight;
-    const currentDistanceFromTop = document.documentElement;
-    scrollTop;
-
-    const windowHeight = document.documentElement.clientHeight;
-
-    const scrolledPErcentage = (currentDistanceFromTop / (totalheightOfWebPage - windowHeight)) * 100;
-
-    scrollProgressElement.style.width = Math.round(scrolledPErcentage);
-}
-document.addEventListener('scroll', scrollProgress);
+ 
 
 /*=============== DARK LIGHT THEME ===============*/ 
 const themeButton = document.getElementById('theme-button')

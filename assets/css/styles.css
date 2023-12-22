@@ -4,18 +4,6 @@
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
-
-
-  /*========== SCROLL ANIMATION ==========*/
-  .scroll-progress {
-    width: 0;
-    background-color: #f1c40f;
-    height: 3px;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-
   
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
