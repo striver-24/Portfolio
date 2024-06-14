@@ -282,56 +282,6 @@ body.dark-theme{
   cursor: pointer;
 }
 
-
-/* iPhone 11 portrait and landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) {
-  .home__social-link {
-    background-color: var(--black-color-light);
-    color: var(--white-color);
-    font-size: 1.25rem;
-    padding: 1px;
-    display: grid;
-    place-items: center;
-    transition: background-color .3s;
-  }
-}
-
-/* iPhone 11 portrait */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) 
-  and (orientation: portrait) {
-  .home__social-link {
-    color: var(--white-color);
-    font-size: 1.25rem;
-    padding: 1px;
-    display: grid;
-    place-items: center;
-    transition: background-color .3s;
-  }
-}
-
-/* iPhone 11 landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) 
-  and (orientation: landscape) {
-  .home__social-link {
-    background-color: var(--black-color-light);
-    color: var(--white-color);
-    font-size: 1.25rem;
-    padding: 1px;
-    display: grid;
-    place-items: center;
-    transition: background-color .3s;
-  }
-}
-
 /* Navigation for mobile devices */
 @media screen and (max-width: 1150px){
   .nav__menu{
