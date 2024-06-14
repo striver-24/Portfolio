@@ -306,7 +306,6 @@ body.dark-theme{
   and (-webkit-min-device-pixel-ratio: 3) 
   and (orientation: portrait) {
   .home__social-link {
-    background-color: var(--black-color-light);
     color: var(--white-color);
     font-size: 1.25rem;
     padding: 1px;
